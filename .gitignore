@@ -12,6 +12,7 @@ key.json
 # next.js
 /.next/
 /out/
+venv
 
 # production
 /build
