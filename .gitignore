@@ -56,7 +56,6 @@ env/
 
 # Docker
 *.dockerfile
-**/Dockerfile
 docker-compose.override.yml
 
 # Logs
