@@ -116,4 +116,4 @@ async def login(request_body: User, response: Response):
         max_age=60*60*24*30
     )
 
-    return {"message": "Login successful", "data": {"email": user.get("email")}}
+    return {"message": "Login successful", "data": {"email": user.get("email"), "token": access_token}}
